@@ -1,0 +1,11 @@
+body {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-template-rows: 2fr 8fr;
+    height: 100vh;
+}
+.sidebar {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-end: span 2;
+}
