@@ -1,11 +1,50 @@
 body {
     display: grid;
-    grid-template-columns: 2fr 8fr;
+    grid-template-columns: 2fr 9fr;
     grid-template-rows: 2fr 8fr;
     height: 100vh;
 }
+a {
+    text-decoration: none;
+}
 .sidebar {
+    display: grid;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-end: span 2;
+    background-color: #5eead4;
+    grid-template-rows: 1fr 4fr;
+    
+}
+.content {
+    background-color: #e2e8f0;
+}
+.iconlogo {
+    width: 40px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 25px 10px;
+}
+.navlogo{
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.sideicon {
+    max-width: 30px;
+}
+.option{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 25px 10px;
+}
+.sidenav{
+    font-size: 30px;
+    padding: 0px 5px;
 }
